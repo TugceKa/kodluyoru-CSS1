@@ -1,0 +1,145 @@
+/* /* /* 
+h1,h2  {
+  color: white;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+body { 
+  background-color: rgb(202, 198, 198);
+  font-family: italic;
+}
+
+ul{
+  font-size: 19px;
+  color: darkblue;
+  text-align: left;
+}
+
+article{
+  border: 5px outset rgb(230, 155, 71);
+  background-color: rgb(181, 204, 247);
+  text-align: right;
+  color: red (135, 255, 80); 
+
+}
+nav{
+  border: 15px outset rgb(255, 206, 202);
+  background-color: rgb(245, 166, 221);
+  text-align: center;
+}
+
+
+body{
+  background-image: url(https://wallpaperaccess.com/full/3518345.jpg);
+ } */
+ /*
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  display: -webkit-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 35px 100px 0;
+
+}
+footer{
+  width: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  height: 40px;
+  align-items: center;
+
+} */
+/****************** */
+/*
+.kutucuk{
+  font-size: 15px ;
+  font-style:italic;
+}
+
+
+header {
+  font: bold calc(.025 * (100vw)) 'Arial', sans-serif;
+}
+article{
+   color: black;
+   background-color: pink;
+}
+nav{
+columns: 50px;
+} */
+
+.kutu1 {
+  background-color: blanchedalmond;
+  width: 350px;
+  height: 300px;
+  position: absolute;
+  top: 900px;
+  right: 30px;
+  z-index: 20;
+}
+.kutu2 {
+  background-color:gray;
+  width: 380px;
+  height: 330px;
+  position: absolute;
+  top: 520px;
+  left: 30px;
+  z-index:550;
+}
+.kutu3 {
+  background-color:rosybrown;
+  width: 350px;
+  height: 210px;
+  top: 250px;
+  left: 100px;
+  z-index: 50;
+}
+.kutu4 {
+  background-color:violet;
+  width: 300px;
+  height: 220px;
+  position: absolute;
+  top: 260px;
+  right: 30px;
+  z-index: 5;
+}
+a{
+  color: black;
+  background-color:violet;
+}
+
+  footer{                
+    width: 100%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    height: 40px;
+    align-items: center; 
+  }            
+#wrapper{                
+    min-height: calc(300vh - 80px);  
+justify-content: center;
+text-align: center;
+}
+
